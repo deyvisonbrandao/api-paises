@@ -1,5 +1,5 @@
 ### Buscar todos os países
-GET http://localhost:3000/country
+GET http://localhost:3000/countries
 Accept: application/json
 
 ### Buscar país por ID

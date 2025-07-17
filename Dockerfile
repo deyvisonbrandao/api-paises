@@ -1,5 +1,5 @@
 # Etapa 1: build da aplicação
-FROM node:22 AS builder
+FROM node:lts-alpine3.22 AS builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm install

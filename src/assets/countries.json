@@ -1,0 +1,1562 @@
+[
+  {
+    "id": 1,
+    "name": "Afeganistão",
+    "shortName": "AF",
+    "isoCode": 4,
+    "ddi": "+93",
+    "continent": "Ásia"
+  },
+  {
+    "id": 2,
+    "name": "África do Sul",
+    "shortName": "ZA",
+    "isoCode": 710,
+    "ddi": "+27",
+    "continent": "África"
+  },
+  {
+    "id": 3,
+    "name": "Albânia",
+    "shortName": "AL",
+    "isoCode": 8,
+    "ddi": "+355",
+    "continent": "Europa"
+  },
+  {
+    "id": 4,
+    "name": "Alemanha",
+    "shortName": "DE",
+    "isoCode": 276,
+    "ddi": "+49",
+    "continent": "Europa"
+  },
+  {
+    "id": 5,
+    "name": "Andorra",
+    "shortName": "AD",
+    "isoCode": 20,
+    "ddi": "+376",
+    "continent": "Europa"
+  },
+  {
+    "id": 6,
+    "name": "Angola",
+    "shortName": "AO",
+    "isoCode": 24,
+    "ddi": "+244",
+    "continent": "África"
+  },
+  {
+    "id": 7,
+    "name": "Antígua e Barbuda",
+    "shortName": "AG",
+    "isoCode": 28,
+    "ddi": "+1268",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 8,
+    "name": "Arábia Saudita",
+    "shortName": "SA",
+    "isoCode": 682,
+    "ddi": "+966",
+    "continent": "Ásia"
+  },
+  {
+    "id": 9,
+    "name": "Argélia",
+    "shortName": "DZ",
+    "isoCode": 12,
+    "ddi": "+213",
+    "continent": "África"
+  },
+  {
+    "id": 10,
+    "name": "Argentina",
+    "shortName": "AR",
+    "isoCode": 32,
+    "ddi": "+54",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 11,
+    "name": "Armênia",
+    "shortName": "AM",
+    "isoCode": 51,
+    "ddi": "+374",
+    "continent": "Ásia"
+  },
+  {
+    "id": 12,
+    "name": "Austrália",
+    "shortName": "AU",
+    "isoCode": 36,
+    "ddi": "+61",
+    "continent": "Oceania"
+  },
+  {
+    "id": 13,
+    "name": "Áustria",
+    "shortName": "AT",
+    "isoCode": 40,
+    "ddi": "+43",
+    "continent": "Europa"
+  },
+  {
+    "id": 14,
+    "name": "Azerbaijão",
+    "shortName": "AZ",
+    "isoCode": 31,
+    "ddi": "+994",
+    "continent": "Ásia"
+  },
+  {
+    "id": 15,
+    "name": "Bahamas",
+    "shortName": "BS",
+    "isoCode": 44,
+    "ddi": "+1242",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 16,
+    "name": "Bangladesh",
+    "shortName": "BD",
+    "isoCode": 50,
+    "ddi": "+880",
+    "continent": "Ásia"
+  },
+  {
+    "id": 17,
+    "name": "Barbados",
+    "shortName": "BB",
+    "isoCode": 52,
+    "ddi": "+1246",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 18,
+    "name": "Bahrein",
+    "shortName": "BH",
+    "isoCode": 48,
+    "ddi": "+973",
+    "continent": "Ásia"
+  },
+  {
+    "id": 19,
+    "name": "Bélgica",
+    "shortName": "BE",
+    "isoCode": 56,
+    "ddi": "+32",
+    "continent": "Europa"
+  },
+  {
+    "id": 20,
+    "name": "Belize",
+    "shortName": "BZ",
+    "isoCode": 84,
+    "ddi": "+501",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 21,
+    "name": "Benin",
+    "shortName": "BJ",
+    "isoCode": 204,
+    "ddi": "+229",
+    "continent": "África"
+  },
+  {
+    "id": 22,
+    "name": "Bielorrússia",
+    "shortName": "BY",
+    "isoCode": 112,
+    "ddi": "+375",
+    "continent": "Europa"
+  },
+  {
+    "id": 23,
+    "name": "Bolívia",
+    "shortName": "BO",
+    "isoCode": 68,
+    "ddi": "+591",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 24,
+    "name": "Bósnia e Herzegovina",
+    "shortName": "BA",
+    "isoCode": 70,
+    "ddi": "+387",
+    "continent": "Europa"
+  },
+  {
+    "id": 25,
+    "name": "Botsuana",
+    "shortName": "BW",
+    "isoCode": 72,
+    "ddi": "+267",
+    "continent": "África"
+  },
+  {
+    "id": 26,
+    "name": "Brasil",
+    "shortName": "BR",
+    "isoCode": 76,
+    "ddi": "+55",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 27,
+    "name": "Brunei",
+    "shortName": "BN",
+    "isoCode": 96,
+    "ddi": "+673",
+    "continent": "Ásia"
+  },
+  {
+    "id": 28,
+    "name": "Bulgária",
+    "shortName": "BG",
+    "isoCode": 100,
+    "ddi": "+359",
+    "continent": "Europa"
+  },
+  {
+    "id": 29,
+    "name": "Burquina Faso",
+    "shortName": "BF",
+    "isoCode": 854,
+    "ddi": "+226",
+    "continent": "África"
+  },
+  {
+    "id": 30,
+    "name": "Burundi",
+    "shortName": "BI",
+    "isoCode": 108,
+    "ddi": "+257",
+    "continent": "África"
+  },
+  {
+    "id": 31,
+    "name": "Butão",
+    "shortName": "BT",
+    "isoCode": 64,
+    "ddi": "+975",
+    "continent": "Ásia"
+  },
+  {
+    "id": 32,
+    "name": "Cabo Verde",
+    "shortName": "CV",
+    "isoCode": 132,
+    "ddi": "+238",
+    "continent": "África"
+  },
+  {
+    "id": 33,
+    "name": "Camarões",
+    "shortName": "CM",
+    "isoCode": 120,
+    "ddi": "+237",
+    "continent": "África"
+  },
+  {
+    "id": 34,
+    "name": "Camboja",
+    "shortName": "KH",
+    "isoCode": 116,
+    "ddi": "+855",
+    "continent": "Ásia"
+  },
+  {
+    "id": 35,
+    "name": "Canadá",
+    "shortName": "CA",
+    "isoCode": 124,
+    "ddi": "+1",
+    "continent": "América do Norte"
+  },
+  {
+    "id": 36,
+    "name": "Catar",
+    "shortName": "QA",
+    "isoCode": 634,
+    "ddi": "+974",
+    "continent": "Ásia"
+  },
+  {
+    "id": 37,
+    "name": "Cazaquistão",
+    "shortName": "KZ",
+    "isoCode": 398,
+    "ddi": "+7",
+    "continent": "Ásia"
+  },
+  {
+    "id": 38,
+    "name": "Chade",
+    "shortName": "TD",
+    "isoCode": 148,
+    "ddi": "+235",
+    "continent": "África"
+  },
+  {
+    "id": 39,
+    "name": "Chile",
+    "shortName": "CL",
+    "isoCode": 152,
+    "ddi": "+56",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 40,
+    "name": "China",
+    "shortName": "CN",
+    "isoCode": 156,
+    "ddi": "+86",
+    "continent": "Ásia"
+  },
+  {
+    "id": 41,
+    "name": "Chipre",
+    "shortName": "CY",
+    "isoCode": 196,
+    "ddi": "+357",
+    "continent": "Europa"
+  },
+  {
+    "id": 42,
+    "name": "Colômbia",
+    "shortName": "CO",
+    "isoCode": 170,
+    "ddi": "+57",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 43,
+    "name": "Comores",
+    "shortName": "KM",
+    "isoCode": 174,
+    "ddi": "+269",
+    "continent": "África"
+  },
+  {
+    "id": 44,
+    "name": "Congo-Brazzaville",
+    "shortName": "CG",
+    "isoCode": 178,
+    "ddi": "+242",
+    "continent": "África"
+  },
+  {
+    "id": 45,
+    "name": "Congo-Kinshasa",
+    "shortName": "CD",
+    "isoCode": 180,
+    "ddi": "+243",
+    "continent": "África"
+  },
+  {
+    "id": 46,
+    "name": "Coreia do Norte",
+    "shortName": "KP",
+    "isoCode": 408,
+    "ddi": "+850",
+    "continent": "Ásia"
+  },
+  {
+    "id": 47,
+    "name": "Coreia do Sul",
+    "shortName": "KR",
+    "isoCode": 410,
+    "ddi": "+82",
+    "continent": "Ásia"
+  },
+  {
+    "id": 48,
+    "name": "Costa do Marfim",
+    "shortName": "CI",
+    "isoCode": 384,
+    "ddi": "+225",
+    "continent": "África"
+  },
+  {
+    "id": 49,
+    "name": "Costa Rica",
+    "shortName": "CR",
+    "isoCode": 188,
+    "ddi": "+506",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 50,
+    "name": "Croácia",
+    "shortName": "HR",
+    "isoCode": 191,
+    "ddi": "+385",
+    "continent": "Europa"
+  },
+  {
+    "id": 51,
+    "name": "Cuba",
+    "shortName": "CU",
+    "isoCode": 192,
+    "ddi": "+53",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 52,
+    "name": "Dinamarca",
+    "shortName": "DK",
+    "isoCode": 208,
+    "ddi": "+45",
+    "continent": "Europa"
+  },
+  {
+    "id": 53,
+    "name": "Djibuti",
+    "shortName": "DJ",
+    "isoCode": 262,
+    "ddi": "+253",
+    "continent": "África"
+  },
+  {
+    "id": 54,
+    "name": "Dominica",
+    "shortName": "DM",
+    "isoCode": 212,
+    "ddi": "+1767",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 55,
+    "name": "Egito",
+    "shortName": "EG",
+    "isoCode": 818,
+    "ddi": "+20",
+    "continent": "África"
+  },
+  {
+    "id": 56,
+    "name": "El Salvador",
+    "shortName": "SV",
+    "isoCode": 222,
+    "ddi": "+503",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 57,
+    "name": "Emirados Árabes Unidos",
+    "shortName": "AE",
+    "isoCode": 784,
+    "ddi": "+971",
+    "continent": "Ásia"
+  },
+  {
+    "id": 58,
+    "name": "Equador",
+    "shortName": "EC",
+    "isoCode": 218,
+    "ddi": "+593",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 59,
+    "name": "Eritreia",
+    "shortName": "ER",
+    "isoCode": 232,
+    "ddi": "+291",
+    "continent": "África"
+  },
+  {
+    "id": 60,
+    "name": "Eslováquia",
+    "shortName": "SK",
+    "isoCode": 703,
+    "ddi": "+421",
+    "continent": "Europa"
+  },
+  {
+    "id": 61,
+    "name": "Eslovênia",
+    "shortName": "SI",
+    "isoCode": 705,
+    "ddi": "+386",
+    "continent": "Europa"
+  },
+  {
+    "id": 62,
+    "name": "Espanha",
+    "shortName": "ES",
+    "isoCode": 724,
+    "ddi": "+34",
+    "continent": "Europa"
+  },
+  {
+    "id": 63,
+    "name": "Estados Unidos",
+    "shortName": "US",
+    "isoCode": 840,
+    "ddi": "+1",
+    "continent": "América do Norte"
+  },
+  {
+    "id": 64,
+    "name": "Estônia",
+    "shortName": "EE",
+    "isoCode": 233,
+    "ddi": "+372",
+    "continent": "Europa"
+  },
+  {
+    "id": 65,
+    "name": "Eswatini",
+    "shortName": "SZ",
+    "isoCode": 748,
+    "ddi": "+268",
+    "continent": "África"
+  },
+  {
+    "id": 66,
+    "name": "Etiópia",
+    "shortName": "ET",
+    "isoCode": 231,
+    "ddi": "+251",
+    "continent": "África"
+  },
+  {
+    "id": 67,
+    "name": "Fiji",
+    "shortName": "FJ",
+    "isoCode": 242,
+    "ddi": "+679",
+    "continent": "Oceania"
+  },
+  {
+    "id": 68,
+    "name": "Filipinas",
+    "shortName": "PH",
+    "isoCode": 608,
+    "ddi": "+63",
+    "continent": "Ásia"
+  },
+  {
+    "id": 69,
+    "name": "Finlândia",
+    "shortName": "FI",
+    "isoCode": 246,
+    "ddi": "+358",
+    "continent": "Europa"
+  },
+  {
+    "id": 70,
+    "name": "França",
+    "shortName": "FR",
+    "isoCode": 250,
+    "ddi": "+33",
+    "continent": "Europa"
+  },
+  {
+    "id": 71,
+    "name": "Gabão",
+    "shortName": "GA",
+    "isoCode": 266,
+    "ddi": "+241",
+    "continent": "África"
+  },
+  {
+    "id": 72,
+    "name": "Gâmbia",
+    "shortName": "GM",
+    "isoCode": 270,
+    "ddi": "+220",
+    "continent": "África"
+  },
+  {
+    "id": 73,
+    "name": "Gana",
+    "shortName": "GH",
+    "isoCode": 288,
+    "ddi": "+233",
+    "continent": "África"
+  },
+  {
+    "id": 74,
+    "name": "Geórgia",
+    "shortName": "GE",
+    "isoCode": 268,
+    "ddi": "+995",
+    "continent": "Ásia"
+  },
+  {
+    "id": 75,
+    "name": "Granada",
+    "shortName": "GD",
+    "isoCode": 308,
+    "ddi": "+1473",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 76,
+    "name": "Grécia",
+    "shortName": "GR",
+    "isoCode": 300,
+    "ddi": "+30",
+    "continent": "Europa"
+  },
+  {
+    "id": 77,
+    "name": "Guatemala",
+    "shortName": "GT",
+    "isoCode": 320,
+    "ddi": "+502",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 78,
+    "name": "Guiana",
+    "shortName": "GY",
+    "isoCode": 328,
+    "ddi": "+592",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 79,
+    "name": "Guiné",
+    "shortName": "GN",
+    "isoCode": 324,
+    "ddi": "+224",
+    "continent": "África"
+  },
+  {
+    "id": 80,
+    "name": "Guiné-Bissau",
+    "shortName": "GW",
+    "isoCode": 624,
+    "ddi": "+245",
+    "continent": "África"
+  },
+  {
+    "id": 81,
+    "name": "Guiné Equatorial",
+    "shortName": "GQ",
+    "isoCode": 226,
+    "ddi": "+240",
+    "continent": "África"
+  },
+  {
+    "id": 82,
+    "name": "Haiti",
+    "shortName": "HT",
+    "isoCode": 332,
+    "ddi": "+509",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 83,
+    "name": "Holanda",
+    "shortName": "NL",
+    "isoCode": 528,
+    "ddi": "+31",
+    "continent": "Europa"
+  },
+  {
+    "id": 84,
+    "name": "Honduras",
+    "shortName": "HN",
+    "isoCode": 340,
+    "ddi": "+504",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 85,
+    "name": "Hungria",
+    "shortName": "HU",
+    "isoCode": 348,
+    "ddi": "+36",
+    "continent": "Europa"
+  },
+  {
+    "id": 86,
+    "name": "Iémen",
+    "shortName": "YE",
+    "isoCode": 887,
+    "ddi": "+967",
+    "continent": "Ásia"
+  },
+  {
+    "id": 87,
+    "name": "Ilhas Marshall",
+    "shortName": "MH",
+    "isoCode": 584,
+    "ddi": "+692",
+    "continent": "Oceania"
+  },
+  {
+    "id": 88,
+    "name": "Ilhas Salomão",
+    "shortName": "SB",
+    "isoCode": 90,
+    "ddi": "+677",
+    "continent": "Oceania"
+  },
+  {
+    "id": 89,
+    "name": "Índia",
+    "shortName": "IN",
+    "isoCode": 356,
+    "ddi": "+91",
+    "continent": "Ásia"
+  },
+  {
+    "id": 90,
+    "name": "Indonésia",
+    "shortName": "ID",
+    "isoCode": 360,
+    "ddi": "+62",
+    "continent": "Ásia"
+  },
+  {
+    "id": 91,
+    "name": "Irã",
+    "shortName": "IR",
+    "isoCode": 364,
+    "ddi": "+98",
+    "continent": "Ásia"
+  },
+  {
+    "id": 92,
+    "name": "Iraque",
+    "shortName": "IQ",
+    "isoCode": 368,
+    "ddi": "+964",
+    "continent": "Ásia"
+  },
+  {
+    "id": 93,
+    "name": "Irlanda",
+    "shortName": "IE",
+    "isoCode": 372,
+    "ddi": "+353",
+    "continent": "Europa"
+  },
+  {
+    "id": 94,
+    "name": "Islândia",
+    "shortName": "IS",
+    "isoCode": 352,
+    "ddi": "+354",
+    "continent": "Europa"
+  },
+  {
+    "id": 95,
+    "name": "Israel",
+    "shortName": "IL",
+    "isoCode": 376,
+    "ddi": "+972",
+    "continent": "Ásia"
+  },
+  {
+    "id": 96,
+    "name": "Itália",
+    "shortName": "IT",
+    "isoCode": 380,
+    "ddi": "+39",
+    "continent": "Europa"
+  },
+  {
+    "id": 97,
+    "name": "Jamaica",
+    "shortName": "JM",
+    "isoCode": 388,
+    "ddi": "+1876",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 98,
+    "name": "Japão",
+    "shortName": "JP",
+    "isoCode": 392,
+    "ddi": "+81",
+    "continent": "Ásia"
+  },
+  {
+    "id": 99,
+    "name": "Jordânia",
+    "shortName": "JO",
+    "isoCode": 400,
+    "ddi": "+962",
+    "continent": "Ásia"
+  },
+  {
+    "id": 100,
+    "name": "Kiribati",
+    "shortName": "KI",
+    "isoCode": 296,
+    "ddi": "+686",
+    "continent": "Oceania"
+  },
+  {
+    "id": 101,
+    "name": "Kuwait",
+    "shortName": "KW",
+    "isoCode": 414,
+    "ddi": "+965",
+    "continent": "Ásia"
+  },
+  {
+    "id": 102,
+    "name": "Laos",
+    "shortName": "LA",
+    "isoCode": 418,
+    "ddi": "+856",
+    "continent": "Ásia"
+  },
+  {
+    "id": 103,
+    "name": "Lesoto",
+    "shortName": "LS",
+    "isoCode": 426,
+    "ddi": "+266",
+    "continent": "África"
+  },
+  {
+    "id": 104,
+    "name": "Letônia",
+    "shortName": "LV",
+    "isoCode": 428,
+    "ddi": "+371",
+    "continent": "Europa"
+  },
+  {
+    "id": 105,
+    "name": "Líbano",
+    "shortName": "LB",
+    "isoCode": 422,
+    "ddi": "+961",
+    "continent": "Ásia"
+  },
+  {
+    "id": 106,
+    "name": "Libéria",
+    "shortName": "LR",
+    "isoCode": 430,
+    "ddi": "+231",
+    "continent": "África"
+  },
+  {
+    "id": 107,
+    "name": "Líbia",
+    "shortName": "LY",
+    "isoCode": 434,
+    "ddi": "+218",
+    "continent": "África"
+  },
+  {
+    "id": 108,
+    "name": "Liechtenstein",
+    "shortName": "LI",
+    "isoCode": 438,
+    "ddi": "+423",
+    "continent": "Europa"
+  },
+  {
+    "id": 109,
+    "name": "Lituânia",
+    "shortName": "LT",
+    "isoCode": 440,
+    "ddi": "+370",
+    "continent": "Europa"
+  },
+  {
+    "id": 110,
+    "name": "Luxemburgo",
+    "shortName": "LU",
+    "isoCode": 442,
+    "ddi": "+352",
+    "continent": "Europa"
+  },
+  {
+    "id": 111,
+    "name": "Macedônia do Norte",
+    "shortName": "MK",
+    "isoCode": 807,
+    "ddi": "+389",
+    "continent": "Europa"
+  },
+  {
+    "id": 112,
+    "name": "Madagáscar",
+    "shortName": "MG",
+    "isoCode": 450,
+    "ddi": "+261",
+    "continent": "África"
+  },
+  {
+    "id": 113,
+    "name": "Malásia",
+    "shortName": "MY",
+    "isoCode": 458,
+    "ddi": "+60",
+    "continent": "Ásia"
+  },
+  {
+    "id": 114,
+    "name": "Malawi",
+    "shortName": "MW",
+    "isoCode": 454,
+    "ddi": "+265",
+    "continent": "África"
+  },
+  {
+    "id": 115,
+    "name": "Maldivas",
+    "shortName": "MV",
+    "isoCode": 462,
+    "ddi": "+960",
+    "continent": "Ásia"
+  },
+  {
+    "id": 116,
+    "name": "Mali",
+    "shortName": "ML",
+    "isoCode": 466,
+    "ddi": "+223",
+    "continent": "África"
+  },
+  {
+    "id": 117,
+    "name": "Malta",
+    "shortName": "MT",
+    "isoCode": 470,
+    "ddi": "+356",
+    "continent": "Europa"
+  },
+  {
+    "id": 118,
+    "name": "Marrocos",
+    "shortName": "MA",
+    "isoCode": 504,
+    "ddi": "+212",
+    "continent": "África"
+  },
+  {
+    "id": 119,
+    "name": "Maurícia",
+    "shortName": "MU",
+    "isoCode": 480,
+    "ddi": "+230",
+    "continent": "África"
+  },
+  {
+    "id": 120,
+    "name": "Mauritânia",
+    "shortName": "MR",
+    "isoCode": 478,
+    "ddi": "+222",
+    "continent": "África"
+  },
+  {
+    "id": 121,
+    "name": "México",
+    "shortName": "MX",
+    "isoCode": 484,
+    "ddi": "+52",
+    "continent": "América do Norte"
+  },
+  {
+    "id": 122,
+    "name": "Micronésia",
+    "shortName": "FM",
+    "isoCode": 583,
+    "ddi": "+691",
+    "continent": "Oceania"
+  },
+  {
+    "id": 123,
+    "name": "Moçambique",
+    "shortName": "MZ",
+    "isoCode": 508,
+    "ddi": "+258",
+    "continent": "África"
+  },
+  {
+    "id": 124,
+    "name": "Moldávia",
+    "shortName": "MD",
+    "isoCode": 498,
+    "ddi": "+373",
+    "continent": "Europa"
+  },
+  {
+    "id": 125,
+    "name": "Mônaco",
+    "shortName": "MC",
+    "isoCode": 492,
+    "ddi": "+377",
+    "continent": "Europa"
+  },
+  {
+    "id": 126,
+    "name": "Mongólia",
+    "shortName": "MN",
+    "isoCode": 496,
+    "ddi": "+976",
+    "continent": "Ásia"
+  },
+  {
+    "id": 127,
+    "name": "Montenegro",
+    "shortName": "ME",
+    "isoCode": 499,
+    "ddi": "+382",
+    "continent": "Europa"
+  },
+  {
+    "id": 128,
+    "name": "Myanmar",
+    "shortName": "MM",
+    "isoCode": 104,
+    "ddi": "+95",
+    "continent": "Ásia"
+  },
+  {
+    "id": 129,
+    "name": "Namíbia",
+    "shortName": "NA",
+    "isoCode": 516,
+    "ddi": "+264",
+    "continent": "África"
+  },
+  {
+    "id": 130,
+    "name": "Nauru",
+    "shortName": "NR",
+    "isoCode": 520,
+    "ddi": "+674",
+    "continent": "Oceania"
+  },
+  {
+    "id": 131,
+    "name": "Nepal",
+    "shortName": "NP",
+    "isoCode": 524,
+    "ddi": "+977",
+    "continent": "Ásia"
+  },
+  {
+    "id": 132,
+    "name": "Nicarágua",
+    "shortName": "NI",
+    "isoCode": 558,
+    "ddi": "+505",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 133,
+    "name": "Níger",
+    "shortName": "NE",
+    "isoCode": 562,
+    "ddi": "+227",
+    "continent": "África"
+  },
+  {
+    "id": 134,
+    "name": "Nigéria",
+    "shortName": "NG",
+    "isoCode": 566,
+    "ddi": "+234",
+    "continent": "África"
+  },
+  {
+    "id": 135,
+    "name": "Noruega",
+    "shortName": "NO",
+    "isoCode": 578,
+    "ddi": "+47",
+    "continent": "Europa"
+  },
+  {
+    "id": 136,
+    "name": "Nova Zelândia",
+    "shortName": "NZ",
+    "isoCode": 554,
+    "ddi": "+64",
+    "continent": "Oceania"
+  },
+  {
+    "id": 137,
+    "name": "Omã",
+    "shortName": "OM",
+    "isoCode": 512,
+    "ddi": "+968",
+    "continent": "Ásia"
+  },
+  {
+    "id": 138,
+    "name": "Países Baixos",
+    "shortName": "NL",
+    "isoCode": 528,
+    "ddi": "+31",
+    "continent": "Europa"
+  },
+  {
+    "id": 139,
+    "name": "Palau",
+    "shortName": "PW",
+    "isoCode": 585,
+    "ddi": "+680",
+    "continent": "Oceania"
+  },
+  {
+    "id": 140,
+    "name": "Panamá",
+    "shortName": "PA",
+    "isoCode": 591,
+    "ddi": "+507",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 141,
+    "name": "Papua-Nova Guiné",
+    "shortName": "PG",
+    "isoCode": 598,
+    "ddi": "+675",
+    "continent": "Oceania"
+  },
+  {
+    "id": 142,
+    "name": "Paquistão",
+    "shortName": "PK",
+    "isoCode": 586,
+    "ddi": "+92",
+    "continent": "Ásia"
+  },
+  {
+    "id": 143,
+    "name": "Paraguai",
+    "shortName": "PY",
+    "isoCode": 600,
+    "ddi": "+595",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 144,
+    "name": "Peru",
+    "shortName": "PE",
+    "isoCode": 604,
+    "ddi": "+51",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 145,
+    "name": "Polônia",
+    "shortName": "PL",
+    "isoCode": 616,
+    "ddi": "+48",
+    "continent": "Europa"
+  },
+  {
+    "id": 146,
+    "name": "Portugal",
+    "shortName": "PT",
+    "isoCode": 620,
+    "ddi": "+351",
+    "continent": "Europa"
+  },
+  {
+    "id": 147,
+    "name": "Quênia",
+    "shortName": "KE",
+    "isoCode": 404,
+    "ddi": "+254",
+    "continent": "África"
+  },
+  {
+    "id": 148,
+    "name": "Quirguistão",
+    "shortName": "KG",
+    "isoCode": 417,
+    "ddi": "+996",
+    "continent": "Ásia"
+  },
+  {
+    "id": 149,
+    "name": "Reino Unido",
+    "shortName": "GB",
+    "isoCode": 826,
+    "ddi": "+44",
+    "continent": "Europa"
+  },
+  {
+    "id": 150,
+    "name": "República Centro-Africana",
+    "shortName": "CF",
+    "isoCode": 140,
+    "ddi": "+236",
+    "continent": "África"
+  },
+  {
+    "id": 151,
+    "name": "República Checa",
+    "shortName": "CZ",
+    "isoCode": 203,
+    "ddi": "+420",
+    "continent": "Europa"
+  },
+  {
+    "id": 152,
+    "name": "República Democrática do Congo",
+    "shortName": "CD",
+    "isoCode": 180,
+    "ddi": "+243",
+    "continent": "África"
+  },
+  {
+    "id": 153,
+    "name": "República Dominicana",
+    "shortName": "DO",
+    "isoCode": 214,
+    "ddi": "+1809",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 154,
+    "name": "Romênia",
+    "shortName": "RO",
+    "isoCode": 642,
+    "ddi": "+40",
+    "continent": "Europa"
+  },
+  {
+    "id": 155,
+    "name": "Ruanda",
+    "shortName": "RW",
+    "isoCode": 646,
+    "ddi": "+250",
+    "continent": "África"
+  },
+  {
+    "id": 156,
+    "name": "Rússia",
+    "shortName": "RU",
+    "isoCode": 643,
+    "ddi": "+7",
+    "continent": "Europa/Ásia"
+  },
+  {
+    "id": 157,
+    "name": "Samoa",
+    "shortName": "WS",
+    "isoCode": 882,
+    "ddi": "+685",
+    "continent": "Oceania"
+  },
+  {
+    "id": 158,
+    "name": "San Marino",
+    "shortName": "SM",
+    "isoCode": 674,
+    "ddi": "+378",
+    "continent": "Europa"
+  },
+  {
+    "id": 159,
+    "name": "Santa Lúcia",
+    "shortName": "LC",
+    "isoCode": 662,
+    "ddi": "+1758",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 160,
+    "name": "São Cristóvão e Nevis",
+    "shortName": "KN",
+    "isoCode": 659,
+    "ddi": "+1869",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 161,
+    "name": "São Tomé e Príncipe",
+    "shortName": "ST",
+    "isoCode": 678,
+    "ddi": "+239",
+    "continent": "África"
+  },
+  {
+    "id": 162,
+    "name": "São Vicente e Granadinas",
+    "shortName": "VC",
+    "isoCode": 670,
+    "ddi": "+1784",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 163,
+    "name": "Seicheles",
+    "shortName": "SC",
+    "isoCode": 690,
+    "ddi": "+248",
+    "continent": "África"
+  },
+  {
+    "id": 164,
+    "name": "Senegal",
+    "shortName": "SN",
+    "isoCode": 686,
+    "ddi": "+221",
+    "continent": "África"
+  },
+  {
+    "id": 165,
+    "name": "Serra Leoa",
+    "shortName": "SL",
+    "isoCode": 694,
+    "ddi": "+232",
+    "continent": "África"
+  },
+  {
+    "id": 166,
+    "name": "Singapura",
+    "shortName": "SG",
+    "isoCode": 702,
+    "ddi": "+65",
+    "continent": "Ásia"
+  },
+  {
+    "id": 167,
+    "name": "Síria",
+    "shortName": "SY",
+    "isoCode": 760,
+    "ddi": "+963",
+    "continent": "Ásia"
+  },
+  {
+    "id": 168,
+    "name": "Somália",
+    "shortName": "SO",
+    "isoCode": 706,
+    "ddi": "+252",
+    "continent": "África"
+  },
+  {
+    "id": 169,
+    "name": "Sri Lanka",
+    "shortName": "LK",
+    "isoCode": 144,
+    "ddi": "+94",
+    "continent": "Ásia"
+  },
+  {
+    "id": 170,
+    "name": "Sudão",
+    "shortName": "SD",
+    "isoCode": 729,
+    "ddi": "+249",
+    "continent": "África"
+  },
+  {
+    "id": 171,
+    "name": "Sudão do Sul",
+    "shortName": "SS",
+    "isoCode": 728,
+    "ddi": "+211",
+    "continent": "África"
+  },
+  {
+    "id": 172,
+    "name": "Suécia",
+    "shortName": "SE",
+    "isoCode": 752,
+    "ddi": "+46",
+    "continent": "Europa"
+  },
+  {
+    "id": 173,
+    "name": "Suíça",
+    "shortName": "CH",
+    "isoCode": 756,
+    "ddi": "+41",
+    "continent": "Europa"
+  },
+  {
+    "id": 174,
+    "name": "Suriname",
+    "shortName": "SR",
+    "isoCode": 740,
+    "ddi": "+597",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 175,
+    "name": "Tailândia",
+    "shortName": "TH",
+    "isoCode": 764,
+    "ddi": "+66",
+    "continent": "Ásia"
+  },
+  {
+    "id": 176,
+    "name": "Tajiquistão",
+    "shortName": "TJ",
+    "isoCode": 762,
+    "ddi": "+992",
+    "continent": "Ásia"
+  },
+  {
+    "id": 177,
+    "name": "Tanzânia",
+    "shortName": "TZ",
+    "isoCode": 834,
+    "ddi": "+255",
+    "continent": "África"
+  },
+  {
+    "id": 178,
+    "name": "Timor-Leste",
+    "shortName": "TL",
+    "isoCode": 626,
+    "ddi": "+670",
+    "continent": "Ásia"
+  },
+  {
+    "id": 179,
+    "name": "Togo",
+    "shortName": "TG",
+    "isoCode": 768,
+    "ddi": "+228",
+    "continent": "África"
+  },
+  {
+    "id": 180,
+    "name": "Tonga",
+    "shortName": "TO",
+    "isoCode": 776,
+    "ddi": "+676",
+    "continent": "Oceania"
+  },
+  {
+    "id": 181,
+    "name": "Trindade e Tobago",
+    "shortName": "TT",
+    "isoCode": 780,
+    "ddi": "+1868",
+    "continent": "América Central/Caribe"
+  },
+  {
+    "id": 182,
+    "name": "Tunísia",
+    "shortName": "TN",
+    "isoCode": 788,
+    "ddi": "+216",
+    "continent": "África"
+  },
+  {
+    "id": 183,
+    "name": "Turcomenistão",
+    "shortName": "TM",
+    "isoCode": 795,
+    "ddi": "+993",
+    "continent": "Ásia"
+  },
+  {
+    "id": 184,
+    "name": "Turquia",
+    "shortName": "TR",
+    "isoCode": 792,
+    "ddi": "+90",
+    "continent": "Ásia/Europa"
+  },
+  {
+    "id": 185,
+    "name": "Tuvalu",
+    "shortName": "TV",
+    "isoCode": 798,
+    "ddi": "+688",
+    "continent": "Oceania"
+  },
+  {
+    "id": 186,
+    "name": "Ucrânia",
+    "shortName": "UA",
+    "isoCode": 804,
+    "ddi": "+380",
+    "continent": "Europa"
+  },
+  {
+    "id": 187,
+    "name": "Uganda",
+    "shortName": "UG",
+    "isoCode": 800,
+    "ddi": "+256",
+    "continent": "África"
+  },
+  {
+    "id": 188,
+    "name": "Uruguai",
+    "shortName": "UY",
+    "isoCode": 858,
+    "ddi": "+598",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 189,
+    "name": "Uzbequistão",
+    "shortName": "UZ",
+    "isoCode": 860,
+    "ddi": "+998",
+    "continent": "Ásia"
+  },
+  {
+    "id": 190,
+    "name": "Vanuatu",
+    "shortName": "VU",
+    "isoCode": 548,
+    "ddi": "+678",
+    "continent": "Oceania"
+  },
+  {
+    "id": 191,
+    "name": "Vaticano",
+    "shortName": "VA",
+    "isoCode": 336,
+    "ddi": "+379",
+    "continent": "Europa"
+  },
+  {
+    "id": 192,
+    "name": "Venezuela",
+    "shortName": "VE",
+    "isoCode": 862,
+    "ddi": "+58",
+    "continent": "América do Sul"
+  },
+  {
+    "id": 193,
+    "name": "Vietnã",
+    "shortName": "VN",
+    "isoCode": 704,
+    "ddi": "+84",
+    "continent": "Ásia"
+  },
+  {
+    "id": 194,
+    "name": "Zâmbia",
+    "shortName": "ZM",
+    "isoCode": 894,
+    "ddi": "+260",
+    "continent": "África"
+  },
+  {
+    "id": 195,
+    "name": "Zimbábue",
+    "shortName": "ZW",
+    "isoCode": 716,
+    "ddi": "+263",
+    "continent": "África"
+  }
+]

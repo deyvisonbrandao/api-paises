@@ -15,10 +15,7 @@ export class CountryService implements OnModuleInit {
     return await Promise.all(
       this.countries.map(async (country) => {
         const flag = await this.getSvgFlag(country);
-        return {
-          ...country,
-          flag,
-        };
+        return { ...country, flag: flag };
       }),
     );
   }
@@ -35,7 +32,7 @@ export class CountryService implements OnModuleInit {
     }
 
     const svg = await this.getSvgFlag(country);
-    return { ...country, flag: svg, };
+    return { ...country, flag: svg };
   }
 
   async findByShortName(shortName: string) {
@@ -50,7 +47,7 @@ export class CountryService implements OnModuleInit {
     }
 
     const svg = await this.getSvgFlag(country);
-    return { ...country, flag: svg, };
+    return { ...country, flag: svg };
   }
 
   private async loadCountries() {
@@ -72,9 +69,14 @@ export class CountryService implements OnModuleInit {
     const svgPath = this.getSvgPath(country.shortName);
 
     try {
-      return await fs.readFile(svgPath, 'utf8');
+      let svg = await fs.readFile(svgPath, 'utf8')
+      return this.formatSvg(svg);
     } catch (error) {
       return null;
     }
+  }
+
+  private formatSvg(svg: string): string {
+    return svg.split('"').join("'");
   }
 }

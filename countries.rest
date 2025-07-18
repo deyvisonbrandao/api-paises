@@ -2,10 +2,14 @@
 GET http://localhost:3000/countries
 Accept: application/json
 
-### Buscar país por ID
+### Buscar país por id
 GET http://localhost:3000/country/id/26
 Accept: application/json
 
-### Buscar país por abreviação (BR - Brasil)
+### Buscar país por sigla (BR - Brasil)
 GET http://localhost:3000/country/shortName/BR
+Accept: application/json
+
+### Buscar países por parte do nome (exemplo: "guai")
+GET http://localhost:3000/countries/search/guai
 Accept: application/json

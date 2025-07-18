@@ -27,4 +27,11 @@ export class CountryController {
   findByShortName(@Param('shortName') shortName: string) {
     return this.countryService.findByShortName(shortName);
   }
+
+  @Get('countries/search/:search')
+  @ApiOperation({ summary: 'Busca países por parte do nome' })
+  @ApiResponse({ status: 200, description: 'Sucesso' })
+  findBySearch(@Param('search') search: string) {
+    return this.countryService.findBySearch(search);
+  }
 }

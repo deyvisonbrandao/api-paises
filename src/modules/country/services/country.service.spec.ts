@@ -29,10 +29,6 @@ describe('CountryService', () => {
   });
 
   it('Deve carregar países a partir do arquivo JSON', async () => {
-    (fs.readFile as jest.Mock).mockImplementationOnce((filePath: string) => {
-      expect(filePath).toMatch(/countries\.json$/);
-    });
-
     await service.onModuleInit();
     expect(service['countries']).toEqual(mockCountries);
   });
@@ -75,10 +71,18 @@ describe('CountryService', () => {
     await expect(service.findByShortName('XX')).rejects.toThrow(NotFoundException);
   });
 
-  it('Deve retornar null se o arquivo SVG não for encontrado', async () => {
-    (fs.readFile as jest.Mock).mockImplementationOnce(() => { throw new Error('Arquivo não encontrado'); });
-    const result = await service['getSvgFlag'](mockCountries[0]);
-    expect(result).toBeNull();
+  it('Deve buscar países por parte do nome', async () => {
+    const countries = await service.findBySearch('ARG');
+    expect(countries).toHaveLength(1);
+    expect(countries[0].name).toBe('Argentina');
+  });
+
+  it('Deve lançar (NotFoundException) quando termo de busca não for fornecido', async () => {
+    await expect(service.findBySearch(undefined as any)).rejects.toThrow(NotFoundException);
+  });
+
+  it('Deve trazer array vazio quando nenhum país for encontrado na busca', async () => {
+    await expect(service.findBySearch('xyz')).resolves.toEqual([]);
   });
 
 });

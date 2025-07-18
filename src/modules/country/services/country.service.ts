@@ -14,8 +14,7 @@ export class CountryService implements OnModuleInit {
   async findAll() {
     return await Promise.all(
       this.countries.map(async (country) => {
-        const flag = await this.getSvgFlag(country);
-        return { ...country, flag: flag };
+        return country;
       }),
     );
   }
@@ -31,8 +30,7 @@ export class CountryService implements OnModuleInit {
       throw new NotFoundException('País não encontrado');
     }
 
-    const svg = await this.getSvgFlag(country);
-    return { ...country, flag: svg };
+    return country;
   }
 
   async findByShortName(shortName: string) {
@@ -46,8 +44,19 @@ export class CountryService implements OnModuleInit {
       throw new NotFoundException('País não encontrado');
     }
 
-    const svg = await this.getSvgFlag(country);
-    return { ...country, flag: svg };
+    return country;
+  }
+
+  async findBySearch(search: string) {
+    if (!search) {
+      throw new NotFoundException('Informe o termo de busca');
+    }
+
+    const countries = this.countries.filter((c) =>
+      c.name.toLowerCase().includes(search.toLowerCase())
+    );
+
+    return countries;
   }
 
   private async loadCountries() {
@@ -57,26 +66,7 @@ export class CountryService implements OnModuleInit {
     this.countries = JSON.parse(jsonData);
   }
 
-  private getSvgPath(shortName: string): string {
-    return path.join(process.cwd(), `${this.getBasePath()}/svg`, `${shortName.toLowerCase()}.svg`);
-  }
-
   private getBasePath() {
     return process.env.NODE_ENV === 'production' ? 'dist/assets' : 'src/assets';
-  }
-
-  private async getSvgFlag(country: Country): Promise<string | null> {
-    const svgPath = this.getSvgPath(country.shortName);
-
-    try {
-      let svg = await fs.readFile(svgPath, 'utf8')
-      return this.formatSvg(svg);
-    } catch (error) {
-      return null;
-    }
-  }
-
-  private formatSvg(svg: string): string {
-    return svg.split('"').join("'");
   }
 }

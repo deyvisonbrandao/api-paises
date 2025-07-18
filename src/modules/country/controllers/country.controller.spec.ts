@@ -18,6 +18,9 @@ describe('CountryController', () => {
     findByShortName: jest.fn().mockImplementation((shortName: string) =>
       shortName === 'BR' ? Promise.resolve(mockCountry) : Promise.reject(new NotFoundException()),
     ),
+    findBySearch: jest.fn().mockImplementation((search: string) =>
+      search === 'arg' ? Promise.resolve([mockCountry]) : Promise.resolve([]),
+    ),
   };
 
   beforeEach(async () => {
@@ -60,5 +63,15 @@ describe('CountryController', () => {
 
   it('Deve lançar (NotFoundException) quando shortName do país não existir', async () => {
     await expect(controller.findByShortName('XX')).rejects.toThrow(NotFoundException);
+  });
+
+  it('Deve buscar países por parte do nome', async () => {
+    const result = await controller.findBySearch('arg');
+    expect(result).toEqual([mockCountry]);
+    expect(service.findBySearch).toHaveBeenCalledWith('arg');
+  });
+
+  it('Deve retornar uma lista vazia se nenhum país corresponder à busca', async () => {
+    await expect(controller.findBySearch('nonexistent')).resolves.toEqual([]);
   });
 });
